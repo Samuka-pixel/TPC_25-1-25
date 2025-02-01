@@ -5,13 +5,13 @@ while True:
     D = input("Escolha a dificuldade (facil, normal, dificil): ")
 
     if D == "facil":
-        DT = 15
+        DT = 45
         break
     elif D == "normal":
         DT = 30
         break
     elif D == "dificil":
-        DT = 45
+        DT = 15
         break
     else:
         print("Opção inválida. Escolha entre 'facil', 'normal' ou 'dificil'.")
